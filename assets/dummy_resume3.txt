@@ -1,0 +1,11 @@
+Alex Johnson
+Email: alex.j@email.com
+Phone: 555-123-4567
+
+Experience:
+- AI Intern at InnovateAI (2022-2023)
+- Assisted in NLP research and chatbot development
+- Skills: NLP, Deep Learning, PyTorch, Research
+
+Education:
+- B.E. in Artificial Intelligence, NextGen College 

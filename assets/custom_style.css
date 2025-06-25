@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=JetBrains+Mono:wght@400;700&display=swap');
+
+body, .stApp {
+    font-family: 'Poppins', 'JetBrains Mono', monospace !important;
+    background: linear-gradient(135deg, #0f2027, #2c5364);
+    color: #fff;
+    transition: background 0.5s;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'JetBrains Mono', 'Poppins', monospace !important;
+    letter-spacing: 1px;
+}
+
+/* Neon effect */
+.stButton>button, .stDownloadButton>button {
+    background: linear-gradient(90deg, #ff00cc, #333399);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #ff00cc, 0 0 20px #333399;
+    font-weight: bold;
+    transition: box-shadow 0.3s, background 0.3s;
+}
+.stButton>button:hover, .stDownloadButton>button:hover {
+    box-shadow: 0 0 20px #ff00cc, 0 0 40px #333399;
+    background: linear-gradient(90deg, #333399, #ff00cc);
+}
+
+/* Progress bar gradient */
+[data-testid="stProgress"] > div > div > div > div {
+    background: linear-gradient(90deg, #ff00cc, #333399);
+}
+
+/* Custom gradient progress bars */
+.gradient-progress {
+    background: linear-gradient(90deg, #ff4444, #ffaa00, #44ff44);
+    height: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    margin: 10px 0;
+    transition: all 0.3s ease;
+}
+
+/* Keyword highlighting */
+.keyword-highlight {
+    background-color: #FFD700;
+    padding: 4px 8px;
+    border-radius: 5px;
+    margin: 2px;
+    display: inline-block;
+    font-weight: bold;
+    color: #000;
+    box-shadow: 0 2px 4px rgba(255, 215, 0, 0.3);
+    transition: all 0.2s ease;
+}
+
+.keyword-highlight:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(255, 215, 0, 0.5);
+}
+
+/* Resume preview container */
+.resume-preview {
+    background: rgba(255,255,255,0.1);
+    padding: 15px;
+    border-radius: 8px;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid rgba(255,255,255,0.2);
+    backdrop-filter: blur(10px);
+}
+
+/* Expander styling */
+.streamlit-expanderHeader {
+    background: linear-gradient(90deg, rgba(255,0,204,0.1), rgba(51,51,153,0.1));
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+/* Light mode toggle (to be handled in app logic) */
+/* Add more theme classes as needed */
+
+/* Smooth animations */
+* {
+    transition: all 0.2s ease;
+}
+
+/* File uploader styling */
+.stFileUploader {
+    border: 2px dashed rgba(255,255,255,0.3);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: border-color 0.3s ease;
+}
+
+.stFileUploader:hover {
+    border-color: rgba(255,0,204,0.5);
+} 

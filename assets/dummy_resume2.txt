@@ -1,0 +1,11 @@
+Jane Smith
+Email: jane.smith@email.com
+Phone: 987-654-3210
+
+Experience:
+- Data Analyst at DataWiz (2019-2023)
+- Built dashboards and performed data mining
+- Skills: Data Visualization, SQL, Python, Pandas
+
+Education:
+- B.Sc in Data Science, Future Institute 

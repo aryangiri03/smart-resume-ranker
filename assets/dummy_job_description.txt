@@ -1,0 +1,12 @@
+Job Title: Machine Learning Engineer
+
+Responsibilities:
+- Build and deploy machine learning models
+- Work with Python, Pandas, and scikit-learn
+- Collaborate with data scientists and engineers
+- Communicate results to stakeholders
+
+Requirements:
+- Experience with Python and ML libraries
+- Strong data analysis skills
+- Familiarity with Streamlit is a plus 

@@ -1,0 +1,11 @@
+John Doe
+Email: john.doe@email.com
+Phone: 123-456-7890
+
+Experience:
+- Software Engineer at TechCorp (2020-2023)
+- Developed Python and ML solutions for clients
+- Skills: Python, Machine Learning, Data Analysis, Streamlit
+
+Education:
+- B.Tech in Computer Science, GenZ University 
