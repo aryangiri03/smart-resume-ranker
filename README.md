@@ -1,6 +1,6 @@
 # 🚀 AI Resume Matcher
 
-A Gen-Z, AI-powered web app to match and rank resumes against a job description using state-of-the-art NLP (Sentence-BERT). Built with Streamlit for recruiters who want fast, fun, and futuristic UX.
+A Futuristic, AI-powered web app to match and rank resumes against a job description using state-of-the-art NLP (Sentence-BERT). Built with Streamlit for recruiters who want fast, fun, and futuristic UX.
 
 ![Demo Screenshot](assets/demo_screenshot.png)
 
@@ -10,7 +10,7 @@ A Gen-Z, AI-powered web app to match and rank resumes against a job description 
 - 🤖 AI-powered semantic matching (Sentence-BERT)
 - 🎯 **NEW**: Keyword highlighting with matching terms
 - 📊 Ranked results with gradient progress bars
-- 🎨 Gen-Z UI: neon/cyberpunk/light themes, animated, emoji-rich
+- 🎨 Futuristic UI: neon/cyberpunk/light themes, animated, emoji-rich
 - 📥 **NEW**: Enhanced CSV reports with keyword data
 - ✨ Visual keyword matching with highlighted resume previews
 
@@ -82,7 +82,7 @@ resume-matcher/
 │   ├── matcher.py         # Similarity computation
 │   └── keyword_matcher.py # Keyword extraction & highlighting
 ├── assets/               # Static assets
-│   ├── custom_style.css  # Gen-Z UI styling
+│   ├── custom_style.css  # Futuristic UI styling
 │   └── demo files...     # Sample data
 ├── DEPLOYMENT.md         # Deployment guide
 └── README.md
@@ -123,4 +123,4 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ---
 
-**Made with ❤️ for Gen-Z recruiters** 🚀✨ 
+**Made with ❤️ for Futuristic recruiters** 🚀✨ 
