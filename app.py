@@ -17,7 +17,7 @@ import pandas as pd
 import plotly.express as px
 from io import BytesIO
 
-# --- Custom CSS for Gen-Z/Cyberpunk Theme ---
+# --- Custom CSS/Cyberpunk Theme ---
 try:
     with open("assets/custom_style.css") as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
@@ -36,7 +36,7 @@ theme = st.sidebar.radio("Theme", ["Neon", "Cyberpunk", "Light"])
 st.title("AI Resume Matcher 🤖✨")
 st.markdown("""
 Upload a job description and multiple resumes. We'll rank them by AI-powered match %!<br>
-<small>Gen-Z vibes. Futuristic. Fast. Fun.</small>
+<small> Professional. Futuristic. Fast. Fun.</small>
 """, unsafe_allow_html=True)
 
 # --- File Uploaders ---
@@ -163,7 +163,7 @@ else:
     st.info("Please upload a job description and at least one resume to get started.")
 
 # --- Footer ---
-st.markdown("<center><small>Made with ❤️ for Gen-Z recruiters</small></center>", unsafe_allow_html=True)
+st.markdown("<center><small>Made with dedication for modern recruiters</small></center>", unsafe_allow_html=True)
 
 print(torch.__version__)
 print(transformers.__version__)
