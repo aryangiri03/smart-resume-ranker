@@ -118,9 +118,6 @@ resume-matcher/
 - **Documentation**: [Streamlit Docs](https://docs.streamlit.io)
 - **Community**: [Streamlit Forum](https://discuss.streamlit.io)
 
-## 📄 License
-MIT License - see [LICENSE](LICENSE) file for details.
 
----
 
 **Made with ❤️ for Futuristic recruiters** 🚀✨ 
