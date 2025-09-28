@@ -8,4 +8,4 @@ Experience:
 - Skills: Python, Machine Learning, Data Analysis, Streamlit
 
 Education:
-- B.Tech in Computer Science, GenZ University 
+- B.Tech in Computer Science, 
